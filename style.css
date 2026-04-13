@@ -1,0 +1,23 @@
+body{
+    background-color: pink;
+    font-family: "Playwrite IE", cursive;
+}
+
+.encabezado_pagina{
+    text-align: center;
+    word-spacing: 15px;
+    letter-spacing: 1px;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: rgb(255, 120, 142);
+    box-shadow: 5px 6px 10px 5px rgb(156, 73, 87);
+}
+
+a{
+    color:rgb(255, 227, 231);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(252, 65, 96);
+}
