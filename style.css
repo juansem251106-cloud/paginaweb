@@ -11,6 +11,7 @@ body{
     padding: 15px 40px;
     background-color: rgb(255, 120, 142);
     box-shadow: 5px 6px 10px 5px rgb(156, 73, 87);
+    border: 1px solid white;
 }
 
 a{
@@ -19,5 +20,18 @@ a{
 }
 
 a:hover{
-    color: rgb(252, 65, 96);
+    color: rgb(252, 65, 96);  
+}
+.caja{
+    
+}
+
+.info{
+    border: 2px solid #333; /* Grosor, tipo y color del borde */
+    padding: 20px;          /* Espacio interno entre el texto y el borde */
+    background-color: #f9f9f9; /* Color de fondo */
+    border-radius: 10px;    
+    width: 400px;             
+    margin: 20px auto;      
+    color: #333;
 }
