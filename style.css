@@ -10,8 +10,9 @@ body{
     align-items: center;
     padding: 15px 40px;
     background-color: rgb(255, 120, 142);
-    box-shadow: 5px 6px 10px 5px rgb(156, 73, 87);
+    box-shadow: 5px 6px 10px 5px rgb(255, 97, 123);
     border: 1px solid white;
+    border-radius: 5px;
 }
 
 a{
@@ -20,18 +21,30 @@ a{
 }
 
 a:hover{
-    color: rgb(252, 65, 96);  
-}
-.caja{
-    
+    color: rgb(252, 65, 96);
 }
 
-.info{
-    border: 2px solid #333; /* Grosor, tipo y color del borde */
-    padding: 20px;          /* Espacio interno entre el texto y el borde */
-    background-color: #f9f9f9; /* Color de fondo */
-    border-radius: 10px;    
-    width: 400px;             
-    margin: 20px auto;      
-    color: #333;
+.imagen img{
+    width: 400px;
+    border-radius: 10px;
 }
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+     background-color: rgb(255, 120, 142);
+    border-radius: 10px;
+    margin: 80px 200px;
+    box-shadow: 5px 6px 10px 5px rgb(255, 97, 123);
+}
+
+.contenido_card{
+    max-width: 400px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+
+
